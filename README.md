@@ -31,10 +31,11 @@ The purpose of this project was to use my knowledge on deep learning (Neural Net
   
   ![](images/model.png)
   
- The input data has 43 features, 2 hidden layers and one output layer with a unique neuron for the binary classification.
-To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer.
-For the compilation, the optimizer is adam and the loss function is binary_crossentropy.
+ The input data has 43 features, 2 hidden layers and one output layer with a unique neuron for the binary classification. The  ReLU activation function was used for the 1st and 2nd hidden layers followed by the Sigmoid activation function.The model was complied with the optimizer as `adam` and the loss function as `binary_crossentropy`.
+ 
   * Were you able to achieve the target model performance?
+  
+ ![](images/Opt_epoch.png)
   * What steps did you take to try and increase model performance?
   
   
