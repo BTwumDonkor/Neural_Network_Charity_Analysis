@@ -38,11 +38,14 @@ The purpose of this project was to use my knowledge on deep learning (Neural Net
  ![](images/Opt_epoch.png)
  
  Running the initial non_optimized model gave an accuracy score of 72% which was below the target model performance of 75%
+ ![](images/Acc_non_opt.png)
   * What steps did you take to try and increase model performance?
   
  ![](images/non_opt_epoch.png)
    
  Running the ptimized model gave an accuracy score of 78% which was above the target model performance of 75%.
+ 
+ ![](images/Acc_opt.png)
  The steps taken included retaining the `NAME` column, binning the name_counts <=5 as "Other", creating a OneHotEncoder for the NAME variable from the new bins therefore having 398 input features for the new optimized model. 
   
   
